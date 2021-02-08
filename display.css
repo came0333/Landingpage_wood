@@ -1,0 +1,101 @@
+/*media quries*/
+
+@media (max-width: 1023px)
+
+
+/*main css*/
+
+* {box-sizing:border-box;
+
+}
+
+html,
+body {
+    display: flex;
+    width:100%;
+    height:100%;
+}
+
+.main {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+header,
+section,
+footer {
+    padding:10%;
+    margin:5px;
+    background-color: transparent ;
+}
+
+
+/*main css - adds photo and postion and color*/
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 115px 1fr auto;
+    justify-content: center;
+    height: 100%;
+    padding: 0 1rem;
+    background-color: #f7f7ff;
+    background-image: url(images/bg-image/scooter.svg)
+    ;
+    background-repeat: no-repeat;
+}
+
+
+/*header section css*/
+
+
+.header {
+    display:grid;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header { display:block;}
+
+* {box-sizing: border-box;
+
+}
+
+.section  {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: space-between ;
+    min-height:1000px ;
+    gap: 0 px;
+} 
+
+.section {
+    display: grid;}
+
+
+.footer {
+    padding: 2rem 1rem;
+    margin:0 -1rem;
+    background-color: #fffd8c;
+}
+
+.footer {
+display: block;
+}
+
+.social-link {
+    padding: 1rem;
+}
+
+a {background-color: transparent;}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
