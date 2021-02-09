@@ -1,11 +1,12 @@
-.header
- 
+/*media quries*/
 
 @media (max-width: 1023px)
 .main {
     background-position: center 35%;
     background-size: 50%;
 }
+
+/*background image and main section*/
 
 .main {
 
@@ -56,6 +57,7 @@ background-repeat: no-repeat;
     flex-grow: 1;
 
 }
+/*footer change to yellow*/
 
 .form {margin-top}
 
