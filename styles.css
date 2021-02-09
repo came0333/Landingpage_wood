@@ -30,8 +30,34 @@ background-repeat: no-repeat;
     gap: 0px;
 }
 
+.section {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, minmax(400px, 600px));
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.calculator-form, 
+.form-group {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
 
+.calculator-form,
+.form-group{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
 
+}
+
+.form {margin-top}
 
 .footer {
     padding: 2rem 1rem;
