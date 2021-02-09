@@ -1,5 +1,5 @@
 .header
-
+ 
 
 @media (max-width: 1023px)
 .main {
@@ -30,14 +30,7 @@ background-repeat: no-repeat;
     gap: 0px;
 }
 
-.section {
-display: grid;
-grid-template-columns: repeat(2,minmax(400px, 600px))
- ;
- justify-content: space-between;
- align-items:start; 
- width: 100%
-}
+
 
 
 .footer {
@@ -46,4 +39,3 @@ grid-template-columns: repeat(2,minmax(400px, 600px))
     background-color: #fffd8c;
 }
 
-footer {display:block;}
