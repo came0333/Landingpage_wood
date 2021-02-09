@@ -1,9 +1,4 @@
-/*media quries*/
 
-@media (max-width: 1023px)
-
-
-/*main css*/
 
 * {box-sizing:border-box;
 
@@ -98,4 +93,8 @@ a {background-color: transparent;}
 }
 
 
+/*media quries*/
 
+@media (max-width: 1023px)
+
+{}
