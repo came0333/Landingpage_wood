@@ -17,6 +17,13 @@ max-width: 1200px;
 margin: 0 auto;
 }
 
+.header {
+    padding: 2rem 1rem;
+    margin:0 -1rem;
+    background-color: transparent;
+}
+
+
 header,
 section,
 footer {
@@ -45,6 +52,15 @@ footer {
 
 
 /*header section css*/
+.logo {
+    grid-area: logo;
+  }
+
+  .logo {
+   
+    height: 100%;
+    line-height: 3rem;
+  }
 
 
 .header {
@@ -72,6 +88,7 @@ header { display:block;}
     display: grid;}
 
 
+
 .footer {
     padding: 2rem 1rem;
     margin:0 -1rem;
@@ -97,4 +114,20 @@ a {background-color: transparent;}
 
 @media (max-width: 1023px)
 
-{}
+{ .main{
+
+    background-position:center 35%;
+    background-size: 50%;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 115px 1fr auto;
+    justify-content: center;
+    height:100%;
+    padding: 100%;
+    padding: 0 1rem;
+    background-color:#f7f7ff;
+    background-image:URL(images/bg-image/scooter.svg);
+}
